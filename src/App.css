@@ -1,0 +1,118 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.error-form {
+  display: grid;
+  gap: 12px;
+  margin-top: 32px;
+  padding: 24px;
+  background: white;
+  border: 1px solid #dce2eb;
+  border-radius: 12px;
+}
+
+.error-form h2 {
+  margin: 0 0 8px;
+}
+
+.error-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.error-form button {
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.error-form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.resolve-button {
+  display: block;
+  margin-top: 16px;
+  padding: 8px 12px;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  background: white;
+  color: #2563eb;
+  font: inherit;
+  cursor: pointer;
+}
+
+.resolve-button:hover {
+  background: #eff6ff;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.filters button {
+  padding: 8px 16px;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  background: white;
+  color: #2563eb;
+  font: inherit;
+  cursor: pointer;
+}
+
+.filters button[aria-pressed="true"] {
+  background: #2563eb;
+  color: white;
+}
+
+.search-field {
+  display: grid;
+  gap: 8px;
+  margin-top: 32px;
+}
+
+.search-field input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+  font: inherit;
+}
+.card-title {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #1d4ed8;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.card-title:hover { text-decoration: underline; }
+.error-form fieldset { display: grid; gap: 12px; border: 0; padding: 0; margin: 0; min-width: 0; }
+.error-form legend { font-weight: bold; margin-bottom: 16px; }
+.detail-field { display: grid; gap: 8px; }
+.error-form textarea { width: 100%; padding: 12px; border: 1px solid #94a3b8; border-radius: 6px; font: inherit; resize: vertical; }
+aside a { overflow-wrap: anywhere; }
+button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #2563eb; outline-offset: 3px; }
+button:disabled { cursor: not-allowed; opacity: 0.6; }
+.timeline { padding-left: 24px; }
+.timeline > li { padding: 16px; margin-bottom: 16px; border-left: 3px solid #2563eb; background: white; }
+.timeline h3 { font-size: 16px; }
+.preserve-text { white-space: pre-wrap; overflow-wrap: anywhere; }
+.related-item { display: flex; gap: 16px; justify-content: space-between; margin: 12px 0; }
+.error-form select { width: 100%; min-width: 0; padding: 12px; font: inherit; }

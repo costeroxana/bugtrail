@@ -1,0 +1,41 @@
+.error-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.error-card {
+  padding: 24px;
+  background: white;
+  border: 1px solid #dce2eb;
+  border-radius: 12px;
+}
+
+.error-card h2 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+
+.error-card p {
+  margin: 0 0 16px;
+  color: #475569;
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.status--open {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status--resolved {
+  background: #dcfce7;
+  color: #166534;
+}
